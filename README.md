@@ -64,4 +64,4 @@ plugin_manager( action: "remove_bundle", target: "@local/artifacts-center" )
 
 ## 许可
 
-尚未指定许可证。若需公开复用，请补充 `LICENSE`。
+[MIT](./LICENSE) © 2026 LeeX852。可自由使用、修改、再分发，保留版权与许可声明即可。

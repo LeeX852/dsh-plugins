@@ -4,6 +4,12 @@
   "private": true,
   "type": "module",
   "description": "产物中心：在左侧边栏按项目汇总 Agent 生成的产物文件",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeX852/dsh-plugins.git",
+    "directory": "artifacts-center"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
