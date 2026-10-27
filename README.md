@@ -12,16 +12,16 @@ DeepSeek Harness（DSH）插件合集。每个子目录是一个可独立安装�
 
 ### 方式一：从本仓库的 Git 地址安装（推荐）
 
-需要带上 **commit** 和 `path:`：
+需要带上 **commit** 和 `path:`。下面是首个版本的 commit，可以直接作为稳定安装点：
 
 ```
 plugin_manager(
   action: "install_bundle",
-  target: "git+https://github.com/LeeX852/dsh-plugins.git#<commit>&path:/artifacts-center"
+  target: "git+https://github.com/LeeX852/dsh-plugins.git#078eab31bfcfb5cb420ce7774f093d4267c68268&path:/artifacts-center"
 )
 ```
 
-`<commit>` 换成 `git rev-parse HEAD` 的输出。
+想装更新的版本时，把 `078eab3…` 换成那次提交的 `git rev-parse HEAD` 输出即可。
 
 ### 方式二：先克隆，再按目录安装
 

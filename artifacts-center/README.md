@@ -74,7 +74,7 @@
 用 `plugin_manager` 的 `install_bundle`：
 
 - 本机目录：`target` 指向本目录的绝对路径（link 安装，目录不要删）。
-- 从仓库：`target: "git+https://github.com/LeeX852/dsh-plugins.git#<commit>&path:/artifacts-center"`。
+- 从仓库：`target: "git+https://github.com/LeeX852/dsh-plugins.git#078eab31bfcfb5cb420ce7774f093d4267c68268&path:/artifacts-center"`（commit 可换成任意包含本目录的提交）。
 
 ## 卸载
 
