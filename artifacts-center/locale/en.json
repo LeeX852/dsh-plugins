@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Artifacts Center",
+    "description": "An Artifacts panel in the left sidebar that groups the files each project produced: files declared with present, and files written by write / edit."
+  }
+}

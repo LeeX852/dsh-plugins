@@ -1,0 +1,3 @@
+- insert:
+    - id: ui-artifacts-center
+      name: '@local/artifacts-center'
